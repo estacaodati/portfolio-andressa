@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://estacaodati.github.io/portfolio-andressa/sitemap.xml

@@ -616,11 +616,6 @@
   </style>
 </head>
 <body>
-  <!-- Scroll Progress Indicator -->
-  <!-- <div class="scroll-indicator">
-    <div class="scroll-progress" id="scrollProgress"></div>
-  </div> -->
-
   <div class="container">
     <!-- Header -->
   <!-- HEADER -->
@@ -2038,14 +2033,6 @@
       new CategoryManager();
     });
 
-    // Scroll progress indicator
-    window.addEventListener('scroll', () => {
-      const scrollProgress = document.getElementById('scrollProgress');
-      const scrollTop = window.pageYOffset;
-      const docHeight = document.body.offsetHeight - window.innerHeight;
-      const scrollPercent = (scrollTop / docHeight) * 100;
-      scrollProgress.style.width = scrollPercent + '%';
-    });
   </script>
 </body>
 </html>
